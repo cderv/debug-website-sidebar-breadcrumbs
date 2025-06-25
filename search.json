@@ -1,0 +1,199 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Dummy Inc Knowledge Center",
+    "section": "",
+    "text": "This portal provides comprehensive documentation for all Dummy Inc products and services.\n\n\nNew customers should begin by reviewing the Administrator Guide which provides an overview of all product features and configuration options.\n\n\n\n\n\n\n\n\nWidget Logo\n\n\nOur flagship product offers robust inventory management solutions for retail businesses of all sizes. As an administrator, you can:\n\nConfigure automated reordering thresholds\nManage staff access permissions\nMonitor sales and inventory analytics\n\nLearn more about SmartWidget Pro →\n\n\n\nCRM Connect offers streamlined customer relationship management with powerful features for sales teams:\n\nLead Scoring for sales prioritization\nPipeline Visualization for sales funnel analysis\nCustomer History Integration for personalized communications\n\nLearn more about CRM Connect →\n\n\n\n\n\n\n\nTask\nDescription\nDocumentation Link\n\n\n\n\nUser Onboarding\nAdd, modify, and remove staff accounts\nComing soon\n\n\nIntegration Setup\nConfigure third-party API connections\nIntegration Guide\n\n\nReport Generation\nSetup automated reporting schedules\nComing soon\n\n\nData Migration\nImport and export business data\nComing soon\n\n\n\n\n\n\n\n\n\n\n\n\nProduct Update - June 2025\n\n\n\nOur latest release includes enhanced mobile features and improved customer segmentation tools.\n\n\n\n\n\n\n\n\nAdministrator Tip\n\n\n\nRemember to regularly back up your customer data using our one-click backup tool.\n\n\n\n\n\nIf you need additional assistance, please contact our customer service team at help@dummyinc.example.com."
+  },
+  {
+    "objectID": "index.html#getting-started",
+    "href": "index.html#getting-started",
+    "title": "Dummy Inc Knowledge Center",
+    "section": "",
+    "text": "New customers should begin by reviewing the Administrator Guide which provides an overview of all product features and configuration options."
+  },
+  {
+    "objectID": "index.html#key-product-areas",
+    "href": "index.html#key-product-areas",
+    "title": "Dummy Inc Knowledge Center",
+    "section": "",
+    "text": "Widget Logo\n\n\nOur flagship product offers robust inventory management solutions for retail businesses of all sizes. As an administrator, you can:\n\nConfigure automated reordering thresholds\nManage staff access permissions\nMonitor sales and inventory analytics\n\nLearn more about SmartWidget Pro →\n\n\n\nCRM Connect offers streamlined customer relationship management with powerful features for sales teams:\n\nLead Scoring for sales prioritization\nPipeline Visualization for sales funnel analysis\nCustomer History Integration for personalized communications\n\nLearn more about CRM Connect →"
+  },
+  {
+    "objectID": "index.html#common-administrative-tasks",
+    "href": "index.html#common-administrative-tasks",
+    "title": "Dummy Inc Knowledge Center",
+    "section": "",
+    "text": "Task\nDescription\nDocumentation Link\n\n\n\n\nUser Onboarding\nAdd, modify, and remove staff accounts\nComing soon\n\n\nIntegration Setup\nConfigure third-party API connections\nIntegration Guide\n\n\nReport Generation\nSetup automated reporting schedules\nComing soon\n\n\nData Migration\nImport and export business data\nComing soon"
+  },
+  {
+    "objectID": "index.html#recent-updates",
+    "href": "index.html#recent-updates",
+    "title": "Dummy Inc Knowledge Center",
+    "section": "",
+    "text": "Product Update - June 2025\n\n\n\nOur latest release includes enhanced mobile features and improved customer segmentation tools.\n\n\n\n\n\n\n\n\nAdministrator Tip\n\n\n\nRemember to regularly back up your customer data using our one-click backup tool."
+  },
+  {
+    "objectID": "index.html#support-resources",
+    "href": "index.html#support-resources",
+    "title": "Dummy Inc Knowledge Center",
+    "section": "",
+    "text": "If you need additional assistance, please contact our customer service team at help@dummyinc.example.com."
+  },
+  {
+    "objectID": "admin/sessions/session_hooks.html",
+    "href": "admin/sessions/session_hooks.html",
+    "title": "API Integration Guide",
+    "section": "",
+    "text": "Our REST APIs allow you to connect your existing business systems with Dummy Inc products.\n\n\nAPI integrations can be configured in the system settings panel.\n{\n  \"api_settings\": {\n    \"enabled\": true,\n    \"auth_method\": \"oauth2\",\n    \"rate_limit\": 100,\n    \"webhook_url\": \"https://your-system.example.com/webhooks/dummyinc\",\n    \"secrets\": {\n      \"client_id\": \"YOUR_CLIENT_ID\",\n      \"client_secret\": \"YOUR_CLIENT_SECRET\"\n    }\n  }\n}\n\n\n\n\n\nThese events are triggered for inventory changes:\n\nProduct added\nStock level changed\nPrice update\n\n\n\n\nThese events are triggered for customer activity:\n\nAccount creation\nPurchase completed\nCustomer support request\n\n\n\n\nThese events are triggered during the order lifecycle:\n\nOrder created\nPayment processed\nOrder fulfilled\n\n\n\n\nThese events provide analytics data:\n\nDaily sales summary\nInventory level alerts\nCustomer engagement metrics"
+  },
+  {
+    "objectID": "admin/sessions/session_hooks.html#configuration",
+    "href": "admin/sessions/session_hooks.html#configuration",
+    "title": "API Integration Guide",
+    "section": "",
+    "text": "API integrations can be configured in the system settings panel.\n{\n  \"api_settings\": {\n    \"enabled\": true,\n    \"auth_method\": \"oauth2\",\n    \"rate_limit\": 100,\n    \"webhook_url\": \"https://your-system.example.com/webhooks/dummyinc\",\n    \"secrets\": {\n      \"client_id\": \"YOUR_CLIENT_ID\",\n      \"client_secret\": \"YOUR_CLIENT_SECRET\"\n    }\n  }\n}"
+  },
+  {
+    "objectID": "admin/sessions/session_hooks.html#available-integration-points",
+    "href": "admin/sessions/session_hooks.html#available-integration-points",
+    "title": "API Integration Guide",
+    "section": "",
+    "text": "These events are triggered for inventory changes:\n\nProduct added\nStock level changed\nPrice update\n\n\n\n\nThese events are triggered for customer activity:\n\nAccount creation\nPurchase completed\nCustomer support request\n\n\n\n\nThese events are triggered during the order lifecycle:\n\nOrder created\nPayment processed\nOrder fulfilled\n\n\n\n\nThese events provide analytics data:\n\nDaily sales summary\nInventory level alerts\nCustomer engagement metrics"
+  },
+  {
+    "objectID": "admin/jupyter_sessions/jupyter_sessions.html",
+    "href": "admin/jupyter_sessions/jupyter_sessions.html",
+    "title": "SmartWidget Pro Overview",
+    "section": "",
+    "text": "SmartWidget Pro is our advanced inventory management solution for retail businesses of all sizes.\n\n\n\nInventory Tracking - Real-time monitoring of stock levels across multiple locations\nSupplier Management - Streamlined ordering and vendor relationship tools\nPoint of Sale Integration - Seamless connection with popular POS systems\nAnalytics Dashboard - Customizable reports and sales forecasting\n\n\n\n\n\nSetting up inventory categories and SKUs\nConfiguring automated reorder points\nSetting up staff accounts and permissions\nCreating custom inventory reports"
+  },
+  {
+    "objectID": "admin/jupyter_sessions/jupyter_sessions.html#overview",
+    "href": "admin/jupyter_sessions/jupyter_sessions.html#overview",
+    "title": "SmartWidget Pro Overview",
+    "section": "",
+    "text": "SmartWidget Pro is our advanced inventory management solution for retail businesses of all sizes.\n\n\n\nInventory Tracking - Real-time monitoring of stock levels across multiple locations\nSupplier Management - Streamlined ordering and vendor relationship tools\nPoint of Sale Integration - Seamless connection with popular POS systems\nAnalytics Dashboard - Customizable reports and sales forecasting\n\n\n\n\n\nSetting up inventory categories and SKUs\nConfiguring automated reorder points\nSetting up staff accounts and permissions\nCreating custom inventory reports"
+  },
+  {
+    "objectID": "admin/index.html",
+    "href": "admin/index.html",
+    "title": "Administrator Guide Introduction",
+    "section": "",
+    "text": "Welcome to the Dummy Inc product suite administrator guide. This comprehensive resource will help you configure and manage all aspects of your Dummy Inc software deployment.\n\n\nThe administrator guide is divided into several key sections:\n\nSmartWidget Pro - Inventory management and retail operations control panel\nCRM Connect - Customer relationship management system configuration\nIntegration APIs - Connect your existing systems with Dummy Inc products\n\nUse the sidebar navigation to explore each section in detail.",
+    "crumbs": [
+      "Admin Guide",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "admin/index.html#overview",
+    "href": "admin/index.html#overview",
+    "title": "Administrator Guide Introduction",
+    "section": "",
+    "text": "The administrator guide is divided into several key sections:\n\nSmartWidget Pro - Inventory management and retail operations control panel\nCRM Connect - Customer relationship management system configuration\nIntegration APIs - Connect your existing systems with Dummy Inc products\n\nUse the sidebar navigation to explore each section in detail.",
+    "crumbs": [
+      "Admin Guide",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "admin/crm/overview.html",
+    "href": "admin/crm/overview.html",
+    "title": "CRM Connect",
+    "section": "",
+    "text": "CRM Connect helps businesses build stronger customer relationships through intelligent contact management and sales automation.\n\n\n\nContact Management - Centralized customer information database\nSales Pipeline - Visual deal tracking and forecasting\nEmail Integration - Two-way sync with major email providers\nMarketing Automation - Campaign scheduling and performance metrics\n\n\n\n\nCRM Connect can be customized through the admin control panel:\n\nUser Roles\n\nSales representatives\nAccount managers\nMarketing team\n\nSales Process\n\nCustom pipeline stages\nAutomated follow-up rules\nDeal scoring criteria\n\nIntegration Settings\n\nEmail service providers\nCalendar synchronization\nE-commerce platforms",
+    "crumbs": [
+      "Admin Guide",
+      "CRM Connect",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "admin/crm/overview.html#overview",
+    "href": "admin/crm/overview.html#overview",
+    "title": "CRM Connect",
+    "section": "",
+    "text": "CRM Connect helps businesses build stronger customer relationships through intelligent contact management and sales automation.\n\n\n\nContact Management - Centralized customer information database\nSales Pipeline - Visual deal tracking and forecasting\nEmail Integration - Two-way sync with major email providers\nMarketing Automation - Campaign scheduling and performance metrics\n\n\n\n\nCRM Connect can be customized through the admin control panel:\n\nUser Roles\n\nSales representatives\nAccount managers\nMarketing team\n\nSales Process\n\nCustom pipeline stages\nAutomated follow-up rules\nDeal scoring criteria\n\nIntegration Settings\n\nEmail service providers\nCalendar synchronization\nE-commerce platforms",
+    "crumbs": [
+      "Admin Guide",
+      "CRM Connect",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "admin/integrations/api_guide.html",
+    "href": "admin/integrations/api_guide.html",
+    "title": "API Integration Guide",
+    "section": "",
+    "text": "Our REST APIs allow you to connect your existing business systems with Dummy Inc products.\n\n\nAPI integrations can be configured in the system settings panel.\n{\n  \"api_settings\": {\n    \"enabled\": true,\n    \"auth_method\": \"oauth2\",\n    \"rate_limit\": 100,\n    \"webhook_url\": \"https://your-system.example.com/webhooks/dummyinc\",\n    \"secrets\": {\n      \"client_id\": \"YOUR_CLIENT_ID\",\n      \"client_secret\": \"YOUR_CLIENT_SECRET\"\n    }\n  }\n}\n\n\n\n\n\nThese events are triggered for inventory changes:\n\nProduct added\nStock level changed\nPrice update\n\n\n\n\nThese events are triggered for customer activity:\n\nAccount creation\nPurchase completed\nCustomer support request\n\n\n\n\nThese events are triggered during the order lifecycle:\n\nOrder created\nPayment processed\nOrder fulfilled\n\n\n\n\nThese events provide analytics data:\n\nDaily sales summary\nInventory level alerts\nCustomer engagement metrics",
+    "crumbs": [
+      "Admin Guide",
+      "SmartWidget Pro",
+      "API Integration Guide"
+    ]
+  },
+  {
+    "objectID": "admin/integrations/api_guide.html#configuration",
+    "href": "admin/integrations/api_guide.html#configuration",
+    "title": "API Integration Guide",
+    "section": "",
+    "text": "API integrations can be configured in the system settings panel.\n{\n  \"api_settings\": {\n    \"enabled\": true,\n    \"auth_method\": \"oauth2\",\n    \"rate_limit\": 100,\n    \"webhook_url\": \"https://your-system.example.com/webhooks/dummyinc\",\n    \"secrets\": {\n      \"client_id\": \"YOUR_CLIENT_ID\",\n      \"client_secret\": \"YOUR_CLIENT_SECRET\"\n    }\n  }\n}",
+    "crumbs": [
+      "Admin Guide",
+      "SmartWidget Pro",
+      "API Integration Guide"
+    ]
+  },
+  {
+    "objectID": "admin/integrations/api_guide.html#available-integration-points",
+    "href": "admin/integrations/api_guide.html#available-integration-points",
+    "title": "API Integration Guide",
+    "section": "",
+    "text": "These events are triggered for inventory changes:\n\nProduct added\nStock level changed\nPrice update\n\n\n\n\nThese events are triggered for customer activity:\n\nAccount creation\nPurchase completed\nCustomer support request\n\n\n\n\nThese events are triggered during the order lifecycle:\n\nOrder created\nPayment processed\nOrder fulfilled\n\n\n\n\nThese events provide analytics data:\n\nDaily sales summary\nInventory level alerts\nCustomer engagement metrics",
+    "crumbs": [
+      "Admin Guide",
+      "SmartWidget Pro",
+      "API Integration Guide"
+    ]
+  },
+  {
+    "objectID": "admin/positron_sessions/index.html",
+    "href": "admin/positron_sessions/index.html",
+    "title": "CRM Connect",
+    "section": "",
+    "text": "CRM Connect helps businesses build stronger customer relationships through intelligent contact management and sales automation.\n\n\n\nContact Management - Centralized customer information database\nSales Pipeline - Visual deal tracking and forecasting\nEmail Integration - Two-way sync with major email providers\nMarketing Automation - Campaign scheduling and performance metrics\n\n\n\n\nCRM Connect can be customized through the admin control panel:\n\nUser Roles\n\nSales representatives\nAccount managers\nMarketing team\n\nSales Process\n\nCustom pipeline stages\nAutomated follow-up rules\nDeal scoring criteria\n\nIntegration Settings\n\nEmail service providers\nCalendar synchronization\nE-commerce platforms"
+  },
+  {
+    "objectID": "admin/positron_sessions/index.html#overview",
+    "href": "admin/positron_sessions/index.html#overview",
+    "title": "CRM Connect",
+    "section": "",
+    "text": "CRM Connect helps businesses build stronger customer relationships through intelligent contact management and sales automation.\n\n\n\nContact Management - Centralized customer information database\nSales Pipeline - Visual deal tracking and forecasting\nEmail Integration - Two-way sync with major email providers\nMarketing Automation - Campaign scheduling and performance metrics\n\n\n\n\nCRM Connect can be customized through the admin control panel:\n\nUser Roles\n\nSales representatives\nAccount managers\nMarketing team\n\nSales Process\n\nCustom pipeline stages\nAutomated follow-up rules\nDeal scoring criteria\n\nIntegration Settings\n\nEmail service providers\nCalendar synchronization\nE-commerce platforms"
+  },
+  {
+    "objectID": "admin/smartwidget/overview.html",
+    "href": "admin/smartwidget/overview.html",
+    "title": "SmartWidget Pro Overview",
+    "section": "",
+    "text": "SmartWidget Pro is our advanced inventory management solution for retail businesses of all sizes.\n\n\n\nInventory Tracking - Real-time monitoring of stock levels across multiple locations\nSupplier Management - Streamlined ordering and vendor relationship tools\nPoint of Sale Integration - Seamless connection with popular POS systems\nAnalytics Dashboard - Customizable reports and sales forecasting\n\n\n\n\n\nSetting up inventory categories and SKUs\nConfiguring automated reorder points\nSetting up staff accounts and permissions\nCreating custom inventory reports",
+    "crumbs": [
+      "Admin Guide",
+      "SmartWidget Pro",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "admin/smartwidget/overview.html#overview",
+    "href": "admin/smartwidget/overview.html#overview",
+    "title": "SmartWidget Pro Overview",
+    "section": "",
+    "text": "SmartWidget Pro is our advanced inventory management solution for retail businesses of all sizes.\n\n\n\nInventory Tracking - Real-time monitoring of stock levels across multiple locations\nSupplier Management - Streamlined ordering and vendor relationship tools\nPoint of Sale Integration - Seamless connection with popular POS systems\nAnalytics Dashboard - Customizable reports and sales forecasting\n\n\n\n\n\nSetting up inventory categories and SKUs\nConfiguring automated reorder points\nSetting up staff accounts and permissions\nCreating custom inventory reports",
+    "crumbs": [
+      "Admin Guide",
+      "SmartWidget Pro",
+      "Overview"
+    ]
+  }
+]
