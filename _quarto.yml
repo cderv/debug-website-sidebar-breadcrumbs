@@ -1,0 +1,34 @@
+project:
+  type: website
+
+website:
+  title: "Test"
+  page-navigation: true
+  back-to-top-navigation: true
+  navbar:
+    collapse: false
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Admin Guide"
+        href: "admin/index.qmd"
+
+  sidebar:
+  - id: admin-guide
+    collapse-level: 1
+    contents:
+      - text: "Introduction"
+        href: admin/index.qmd
+      - text: "---"
+      - section: "SmartWidget Pro"
+        contents:
+          - text: "Overview"
+            href: admin/smartwidget/overview.qmd
+          - admin/integrations/api_guide.qmd
+      - section: "CRM Connect"
+        contents:
+          - text: "Overview"
+            href: admin/crm/overview.qmd
+          - admin/integrations/api_guide.qmd
+
+format: html

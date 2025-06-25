@@ -1,0 +1,35 @@
+---
+title: "CRM Connect"
+---
+
+# CRM Connect
+
+## Overview
+
+CRM Connect helps businesses build stronger customer relationships through intelligent contact management and sales automation.
+
+### Core Capabilities
+
+- **Contact Management** - Centralized customer information database
+- **Sales Pipeline** - Visual deal tracking and forecasting
+- **Email Integration** - Two-way sync with major email providers
+- **Marketing Automation** - Campaign scheduling and performance metrics
+
+### Configuration Options
+
+CRM Connect can be customized through the admin control panel:
+
+1. **User Roles** 
+   - Sales representatives
+   - Account managers
+   - Marketing team
+   
+2. **Sales Process**
+   - Custom pipeline stages
+   - Automated follow-up rules
+   - Deal scoring criteria
+
+3. **Integration Settings**
+   - Email service providers
+   - Calendar synchronization
+   - E-commerce platforms

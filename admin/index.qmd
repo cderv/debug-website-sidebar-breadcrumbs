@@ -1,0 +1,17 @@
+---
+title: "Administrator Guide Introduction"
+---
+
+# Administrator Guide
+
+Welcome to the Dummy Inc product suite administrator guide. This comprehensive resource will help you configure and manage all aspects of your Dummy Inc software deployment.
+
+## Overview
+
+The administrator guide is divided into several key sections:
+
+- **[SmartWidget Pro](smartwidget/overview.qmd)** - Inventory management and retail operations control panel
+- **[CRM Connect](crm/overview.qmd)** - Customer relationship management system configuration
+- **[Integration APIs](integrations/api_guide.qmd)** - Connect your existing systems with Dummy Inc products
+
+Use the sidebar navigation to explore each section in detail.

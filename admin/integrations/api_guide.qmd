@@ -1,0 +1,60 @@
+---
+title: "API Integration Guide"
+---
+
+# API Integration Guide
+
+Our REST APIs allow you to connect your existing business systems with Dummy Inc products.
+
+## Configuration
+
+API integrations can be configured in the system settings panel.
+
+```json
+{
+  "api_settings": {
+    "enabled": true,
+    "auth_method": "oauth2",
+    "rate_limit": 100,
+    "webhook_url": "https://your-system.example.com/webhooks/dummyinc",
+    "secrets": {
+      "client_id": "YOUR_CLIENT_ID",
+      "client_secret": "YOUR_CLIENT_SECRET"
+    }
+  }
+}
+```
+
+## Available Integration Points
+
+### Inventory Events
+
+These events are triggered for inventory changes:
+
+- Product added
+- Stock level changed
+- Price update
+
+### Customer Events
+
+These events are triggered for customer activity:
+
+- Account creation
+- Purchase completed
+- Customer support request
+
+### Order Events
+
+These events are triggered during the order lifecycle:
+
+- Order created
+- Payment processed
+- Order fulfilled
+
+### Reporting Events
+
+These events provide analytics data:
+
+- Daily sales summary
+- Inventory level alerts
+- Customer engagement metrics

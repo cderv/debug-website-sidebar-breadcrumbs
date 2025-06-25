@@ -1,0 +1,64 @@
+---
+title: "Dummy Inc Knowledge Center"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+---
+
+# Welcome to Dummy Inc Knowledge Center
+
+This portal provides comprehensive documentation for all Dummy Inc products and services.
+
+## Getting Started
+
+New customers should begin by reviewing the [Administrator Guide](admin/index.qmd) which provides an overview of all product features and configuration options.
+
+## Key Product Areas
+
+### SmartWidget Pro
+
+![Widget Logo](https://placehold.co/150x100/EEE/31343C?text=Widget+Pro){width=150px}
+
+Our flagship product offers robust inventory management solutions for retail businesses of all sizes. As an administrator, you can:
+
+- Configure automated reordering thresholds
+- Manage staff access permissions
+- Monitor sales and inventory analytics
+
+[Learn more about SmartWidget Pro →](admin/smartwidget/overview.qmd)
+
+### CRM Connect
+
+CRM Connect offers streamlined customer relationship management with powerful features for sales teams:
+
+- **Lead Scoring** for sales prioritization
+- **Pipeline Visualization** for sales funnel analysis
+- **Customer History Integration** for personalized communications
+
+[Learn more about CRM Connect →](admin/crm/overview.qmd)
+
+## Common Administrative Tasks
+
+| Task | Description | Documentation Link |
+|------|-------------|-------------------|
+| User Onboarding | Add, modify, and remove staff accounts | Coming soon |
+| Integration Setup | Configure third-party API connections | [Integration Guide](admin/integrations/api_guide.qmd) |
+| Report Generation | Setup automated reporting schedules | Coming soon |
+| Data Migration | Import and export business data | Coming soon |
+
+## Recent Updates
+
+::: {.callout-note}
+## Product Update - June 2025
+Our latest release includes enhanced mobile features and improved customer segmentation tools.
+:::
+
+::: {.callout-tip}
+## Administrator Tip
+Remember to regularly back up your customer data using our one-click backup tool.
+:::
+
+## Support Resources
+
+If you need additional assistance, please contact our customer service team at `help@dummyinc.example.com`.

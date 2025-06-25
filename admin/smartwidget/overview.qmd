@@ -1,0 +1,23 @@
+---
+title: "SmartWidget Pro Overview"
+---
+
+# SmartWidget Pro
+
+## Overview
+
+SmartWidget Pro is our advanced inventory management solution for retail businesses of all sizes.
+
+### Key Features
+
+- **Inventory Tracking** - Real-time monitoring of stock levels across multiple locations
+- **Supplier Management** - Streamlined ordering and vendor relationship tools
+- **Point of Sale Integration** - Seamless connection with popular POS systems
+- **Analytics Dashboard** - Customizable reports and sales forecasting
+
+### Common Tasks
+
+1. Setting up inventory categories and SKUs
+2. Configuring automated reorder points
+3. Setting up staff accounts and permissions
+4. Creating custom inventory reports
